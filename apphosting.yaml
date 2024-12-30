@@ -1,0 +1,17 @@
+env:
+  # Set this with firebase apphosting:secrets:set
+  - variable: GEMINI_API_KEY
+    secret: gemini-api-key
+  # Get these values from the Firebase console
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: AIzaSyAejzglPAYXmbWOE5NjudRDrRuhcMsJn-E
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: friendlyeats-a9d42.firebaseapp.com
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: friendlyeats-a9d42
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: friendlyeats-a9d42.firebasestorage.app
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: 1023367454639
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: 1:1023367454639:web:ca84dd70c59a54be71d95a
